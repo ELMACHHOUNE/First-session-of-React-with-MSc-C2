@@ -2,12 +2,13 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
-      <footer className="bg-gray-800 p-4 mt-8">
-        <div className="container mx-auto text-center text-white">
-          <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
+    <footer className="bg-slate-900 border-t border-slate-800 py-8 mt-auto">
+      <div className="mx-auto max-w-6xl px-4 text-center text-slate-400 text-sm">
+        <p>&copy; {new Date().getFullYear()} React Hub. All rights reserved.</p>
+        <p className="mt-2">
+          Built with React, React Router, and Tailwind CSS.
+        </p>
+      </div>
+    </footer>
   );
 }
