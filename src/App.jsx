@@ -14,13 +14,12 @@ import {
 function Card({ children, className = "" }) {
   return (
     <div
-      className={`rounded-xl border border-slate-200 bg-white/90 shadow-sm backdrop-blur-sm ${className}`}
+      className={`rounded-xl border border-[#044396] bg-white/90 shadow-sm backdrop-blur-sm ${className}`}
     >
       {children}
     </div>
   );
 }
-
 function Badge({ children, variant = "default" }) {
   const variants = {
     default: "bg-sky-100 text-sky-800 border-sky-200",
